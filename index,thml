@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infinity</title>
+    <link rel="stylesheet" href="infinity.css">
+</head>
+
+<body> 
+    <div class="signup">
+      <h1>This is SignUp Page</h1>
+      <h3><p>Endeavour to fill your details correctly</p></h3>
+       <form>
+           <input type="name" placeholder="FirstName" required><br>
+           <label for="Firstname"> First Name</label><br><br>
+           <input type="name" placeholder="LastName" required><br>
+           <label type="Lastname">Last Name</label><br><br>
+           <input type="password" placeholder="Password"><br>
+           <label for="password">Enter your password</label><br><br>
+           <input type="password" placeholder="confirm password" required><br>
+           <label for="password">Confirm password</label><br><br>
+           <input type="number" placeholder="Phone Number"><br>
+           <label for="email">Phone number</label><br><br>
+           <input type="email" placeholder="Enter your email"><br>
+           <label for="email">Enter Email</label><br><br>
+           <button>SignUp</button>
+           <div class="signin">
+               <p>Already have an Account <a href="#">Sign in</a></p>
+           </div>
+       </form>
+    </div>
+
+       <br><br><br><br>
+       <details><p>Are you there already</p>
+        <summary>Hey Brother</summary>
+       </details>
+    <table border="2px">
+        <thead>
+            <th>Country</th>
+            <th>Capital</th>
+            <th>Flag</th>
+        </thead>
+        <tr>
+            <td>Nigeria</td>
+            <td>Abuja</td>
+            <td>incoming</td>
+
+
+        </tr>
+    </table>
+    <p><abbr title="Professor">Prof</abbr> Stephen
+        Hawking is a theoretical physicist and
+        cosmologist.</p>
+        <p><acronym title="National Aeronautics and Space
+        Administration">NASA</acronym> do some crazy
+        space stuff.</p>
+</body>
+</html>
